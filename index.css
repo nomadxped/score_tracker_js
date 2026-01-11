@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:#1B244A;
+    background-color:#355058;
 }
 
 @font-face {
@@ -29,7 +29,7 @@ body {
     padding-top: 60px;
     margin:50px;
     width: 500px;
-    background-color: black;
+    
 }
 
 
@@ -37,10 +37,11 @@ body {
     padding-top: 60px;
     margin:50px;
     width: 500px;
-    background-color: black;
+    
 }
 .container {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
     font-family: Verdana;
     font-size: 80px;
@@ -48,17 +49,15 @@ body {
     text-align: center;
 }
 
-#homebutton{
-    margin-left: 200px;
-    
-    
+.button{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
 }
 
-#guestbutton{
-    margin-left :960px;
-    margin-top: -90px;
     
-}
+
 #hinc1{
     width: 100;
     height: 100;
