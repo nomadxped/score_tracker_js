@@ -3,6 +3,21 @@ body {
     background-color:#355058;
 }
 
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Keep it behind content */
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure it fills screen without distortion */
+}
 @font-face {
     font-family: 'Cursed Timer ULiL';
     src: url('fonts/cursed_timer.ttf') format('truetype');
@@ -13,30 +28,39 @@ body {
 
 #homescore{
     font-family:'Cursed Timer ULiL', monospace ;
-    color:#F94F6D;
+    color:#5c2e36;
     font-size: 104px;
     text-align: center;
 }
 
 #guestscore{
     font-family:'Cursed Timer ULiL', monospace ;
-    color:#F94F6D;
+    color:#5c2e36;
     font-size: 104px;
     text-align: center;
 }
 
 #home-div{
-    padding-top: 60px;
-    margin:50px;
+    padding-top: 30px;
+    margin-top:50px;
     width: 500px;
+    height: 500px;
+    background-color: rgb(53, 170, 131);
+    border-radius: 30px;
+    opacity: 90%;
+    
     
 }
 
 
 #guest-div{
-    padding-top: 60px;
-    margin:50px;
+    padding-top: 30px;
+    margin-top:50px;
     width: 500px;
+    height: 500px;
+    background-color: rgb(53, 170, 131);
+    border-radius: 30px;
+    opacity: 90%;
     
 }
 .container {
@@ -63,11 +87,11 @@ body {
     height: 100;
     font-size: 60px;
     font-family:'Cursed Timer ULiL', monospace ;
-    border: 10px solid #9AABD8;
-    border-color: #9AABD8;
+    border: 10px solid #BCCBD8;
+    border-color: #BCCBD8;
     border-radius: 12px;
-    background-color: transparent;
-    color:#9AABD8;
+    background-color: black;
+    color:#BCCBD8;
 }
 #hinc2{
     width: 100;
@@ -75,11 +99,11 @@ body {
     font-size: 60px;
     margin-left: 30px;
     font-family:'Cursed Timer ULiL', monospace ;
-    border: 10px solid #9AABD8;
-    border-color: #9AABD8;
+    border: 10px solid #BCCBD8;
+    border-color: #BCCBD8;
     border-radius: 12px;
-    background-color: transparent;
-    color:#9AABD8;
+    background-color: black;
+    color:#BCCBD8;
 }
 #hinc3{
     width: 100;
@@ -87,11 +111,11 @@ body {
     font-size: 60px;
     margin-left: 30px;
     font-family:'Cursed Timer ULiL', monospace ;
-    border: 10px solid #9AABD8;
-    border-color: #9AABD8;
+    border: 10px solid #BCCBD8;
+    border-color: #BCCBD8;
     border-radius: 12px;
-    background-color: transparent;
-    color:#9AABD8;
+    background-color: black;
+    color:#BCCBD8;
 }
 
 #ginc1{
@@ -100,11 +124,11 @@ body {
     font-size: 60px;
     font-family:'Cursed Timer ULiL', monospace ;
     margin-left: 30px;
-    border: 10px solid #9AABD8;
-    border-color: #9AABD8;
+    border: 10px solid #BCCBD8;
+    border-color: #BCCBD8;
     border-radius: 12px;
-    background-color: transparent;
-    color:#9AABD8;
+    background-color: black;
+    color:#BCCBD8;
 }
 #ginc2{
     width: 100;
@@ -112,11 +136,11 @@ body {
     font-size: 60px;
     margin-left: 30px;
     font-family:'Cursed Timer ULiL', monospace ;
-    border: 10px solid #9AABD8;
-    border-color: #9AABD8;
+    border: 10px solid #BCCBD8;
+    border-color: #BCCBD8;
     border-radius: 12px;
-    background-color: transparent;
-    color:#9AABD8;
+    background-color: black;
+    color:#BCCBD8;
 }
 #ginc3{
     width: 100;
@@ -124,10 +148,10 @@ body {
     font-size: 60px;
     margin-left: 30px;
     font-family:'Cursed Timer ULiL', monospace ;
-    border: 10px solid #9AABD8;
-    border-color: #9AABD8;
+    border: 10px solid #BCCBD8;
+    border-color: #BCCBD8;
     border-radius: 12px;
-    background-color: transparent;
-    color:#9AABD8;
+    background-color: black;
+    color:#BCCBD8;
 }
 
